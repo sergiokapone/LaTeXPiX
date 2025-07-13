@@ -9,7 +9,6 @@ A Python script that automatically processes PNG images containing mathematical 
 - 📝 **Single Document Output**: Combines all formulas into one LaTeX file
 - 🏷️ **Smart Tagging**: Numbers formulas using source filename as tags
 - 📄 **PDF Compilation**: Automatically compiles to PDF if LaTeX is installed
-- 🎨 **Professional Layout**: Creates well-formatted document with sections and metadata
 
 ## Requirements
 

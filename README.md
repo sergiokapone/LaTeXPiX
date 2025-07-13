@@ -145,6 +145,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Demo
 
+<hr/>
 
 <div align="center">
   <a href="https://youtu.be/IgwOWNt0RjE">
@@ -152,11 +153,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   </a>
 </div>
 
+<hr/>
+
 <div align="center">
   <a href="https://youtu.be/pF-Ot1G6Nzo">
     <img src="https://img.youtube.com/vi/pF-Ot1G6Nzo/maxresdefault.jpg" alt="LaTeX OCR Demo" width="600"/>
   </a>
 </div>
+<hr/>
 
 <div align="center">
   <a href="https://youtu.be/6YsapjC-SGg">

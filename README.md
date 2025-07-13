@@ -134,10 +134,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Common Issues
 
-**"pipenv not recognized"**
-- Add Python Scripts directory to PATH
-- Use `python -m pipenv` instead
-
 **"pdflatex not found"**
 - Install LaTeX distribution
 - Script will still generate .tex file without PDF compilation

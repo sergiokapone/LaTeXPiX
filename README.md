@@ -27,8 +27,8 @@ pip install pix2tex Pillow
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sergikapone/latex-ocr-batch-processor.git
-cd latex-ocr-batch-processor
+git clone https://github.com/sergikapone/LaTeXPiX.git
+cd LaTeXPiX
 ```
 
 2. Install dependencies:
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 1. Place your PNG files containing mathematical formulas in the same directory as the script
 2. Run the script:
 ```bash
-python latex_ocr_processor.py
+python main.py
 ```
 
 3. The script will:
@@ -92,7 +92,7 @@ The script includes robust error handling:
 ## File Structure
 
 ```
-├── latex_ocr_processor.py    # Main script
+├── main.py    # Main script
 ├── requirements.txt          # Python dependencies
 ├── README.md                # This file
 ├── *.png                    # Your formula images

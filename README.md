@@ -27,7 +27,7 @@ pip install pix2tex Pillow
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/latex-ocr-batch-processor.git
+git clone https://github.com/sergikapone/latex-ocr-batch-processor.git
 cd latex-ocr-batch-processor
 ```
 
@@ -146,11 +146,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Ensure high-quality, clear images
 - Check that formulas are properly cropped
 - Verify adequate contrast and resolution
-
-## Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/latex-ocr-batch-processor/issues) page
-2. Create a new issue with detailed description
-3. Include sample images and error messages if applicable

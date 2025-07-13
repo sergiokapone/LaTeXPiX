@@ -33,7 +33,7 @@ cd LaTeXPiX
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pipenv install pix2tex Pillow
 ```
 
 ## Usage
@@ -92,8 +92,8 @@ The script includes robust error handling:
 ## File Structure
 
 ```
-├── main.py    # Main script
-├── requirements.txt          # Python dependencies
+├── main.py                  # Main script
+├── Pipfile                  # Python dependencies
 ├── README.md                # This file
 ├── *.png                    # Your formula images
 └── all_formulas.tex         # Generated output

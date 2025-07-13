@@ -27,13 +27,13 @@ pip install pix2tex Pillow
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/latex-ocr-batch-processor.git
-cd latex-ocr-batch-processor
+git clone https://github.com/sergikapone/LaTeXPiX.git
+cd LaTeXPiX
 ```
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pipenv install pix2tex Pillow
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 1. Place your PNG files containing mathematical formulas in the same directory as the script
 2. Run the script:
 ```bash
-python latex_ocr_processor.py
+python main.py
 ```
 
 3. The script will:
@@ -92,8 +92,8 @@ The script includes robust error handling:
 ## File Structure
 
 ```
-├── latex_ocr_processor.py    # Main script
-├── requirements.txt          # Python dependencies
+├── main.py                  # Main script
+├── Pipfile                  # Python dependencies
 ├── README.md                # This file
 ├── *.png                    # Your formula images
 └── all_formulas.tex         # Generated output
@@ -134,10 +134,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Common Issues
 
-**"pipenv not recognized"**
-- Add Python Scripts directory to PATH
-- Use `python -m pipenv` instead
-
 **"pdflatex not found"**
 - Install LaTeX distribution
 - Script will still generate .tex file without PDF compilation
@@ -147,10 +143,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Check that formulas are properly cropped
 - Verify adequate contrast and resolution
 
-## Support
+## Demo
 
-If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/latex-ocr-batch-processor/issues) page
-2. Create a new issue with detailed description
-3. Include sample images and error messages if applicable
+<div align="center">
+  <a href="https://youtu.be/IgwOWNt0RjE">
+    <img src="https://img.youtube.com/vi/IgwOWNt0RjE/maxresdefault.jpg" alt="LaTeX OCR Demo" width="600"/>
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://youtu.be/pF-Ot1G6Nzo">
+    <img src="https://img.youtube.com/vi/pF-Ot1G6Nzo/maxresdefault.jpg" alt="LaTeX OCR Demo" width="600"/>
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://youtu.be/6YsapjC-SGg">
+    <img src="https://img.youtube.com/vi/6YsapjC-SGg/maxresdefault.jpg" alt="LaTeX OCR Demo" width="600"/>
+  </a>
+</div>
+

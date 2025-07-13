@@ -146,3 +146,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Ensure high-quality, clear images
 - Check that formulas are properly cropped
 - Verify adequate contrast and resolution
+
+## Demo
+
+## Demo
+
+<div align="center">
+  <a href="https://youtu.be/IgwOWNt0RjE">
+    <img src="https://img.youtube.com/vi/IgwOWNt0RjE/maxresdefault.jpg" alt="LaTeX OCR Demo" width="600"/>
+  </a>
+</div>
+
+*Click the image above to watch the demo video*

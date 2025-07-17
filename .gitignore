@@ -1,6 +1,5 @@
 .venv/
 *.aux
 *.log
-*.png
 *.tex
 *.pdf
